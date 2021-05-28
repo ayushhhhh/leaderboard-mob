@@ -142,6 +142,8 @@ body {
     .name-info {
         padding-top: 13px;
         margin-left: 15px;
+         padding: 13px 10px 10px 10px;
+         width: 150px;
     }
 
     .name-info .name {
