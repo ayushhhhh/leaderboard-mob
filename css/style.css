@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background: linear-gradient(-150deg, #222222 15%, #373737 70%, #3c4859 94%);
+
+}
+
+@media(max-width:767px) {
+
+    .leaderboard {
+        padding-bottom: 100px;
+        border-top: 1px #373737 solid;
+    }
+
+
+    .logo {
+        margin-top: 40px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .logo img {
+        height: 80px;
+
+
+    }
+
+    .title {
+        text-align: center;
+        padding-bottom: 20px;
+
+    }
+
+    .title h1 {
+        font-size: 30px;
+        color: #b3b3b3;
+        font-weight: 100;
+
+    }
+
+    .title h1 .cm {
+        color: #fff;
+        font-family: 'Heebo', sans-serif;
+        font-weight: 400;
+
+    }
+
+    .quote {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 300;
+        color: grey;
+    }
+
+    .quote p {
+        line-height: 20px;
+        padding: 5px;
+    }
+
+    .rankings {
+        background: white;
+    }
+
+    .base {
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .base .base-title {
+        display: flex;
+
+
+        align-items: center;
+        font-size: 30px;
+        font-weight: 600;
+        height: 65px;
+        color: #bdc3c7;
+        padding-left: 5px;
+    }
+
+    .base .base-title .fa {
+        margin-right: 6px;
+    }
+
+    .col-sm-5 {
+        padding: 0 20px 20px 20px;
+        margin-bottom: 100px;
+    }
+
+
+    .ranking-list-base {
+        padding: 0px;
+        border-radius: 10px;
+        position: relative;
+        transition: box-shadow 0.4s, -webkit-box-shadow 0.4s;
+        box-shadow: 0 0 50px 0 rgb(0 0 0 / 15%);
+        background: #fafafa;
+    }
+
+    .ranking-list-item {
+        cursor: pointer;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .ranking-list-item .list-inner {
+        display: flex;
+        height: 62px;
+        border-top: 1px dotted #dddddd;
+
+    }
+
+    .ranking-list-item .rank {
+        width: 25px;
+        text-align: center;
+        padding-top: 21px;
+        margin-right: 5px;
+    }
+
+    .avatar {
+        margin-top: 15px;
+        display: inline-block;
+
+    }
+
+    .avatar img {
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+    }
+
+    .name-info {
+        padding-top: 13px;
+        margin-left: 15px;
+    }
+
+    .name-info .name {
+        font-weight: 400;
+        overflow: hidden;
+
+        max-width: 150px;
+    }
+
+    .name-info .info {
+        margin-top: -3px;
+        color: grey;
+        font-size: 11px;
+    }
+
+    .points {
+        padding-top: 13px;
+        margin-left: 50px;
+
+    }
+
+    .ranking-list-item.more .list-inner {
+        color: #0088cc;
+        padding-top: 20px;
+        font-weight: 400;
+        display: block;
+    }
+
+    .ranking-list-item.more a {
+        color: #1890ff;
+        text-decoration: none;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+}
